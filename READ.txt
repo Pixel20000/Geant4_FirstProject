@@ -1,0 +1,17 @@
+
+CONDENSAREA IDEILOR PRINCIPALE;
+
+1)Punem la punct sistemul de compilare prin CMakeList(Compiling & Testing)
+2)Vom genera interfata grafica(GUI) și restul caractersiticilor vizuale(necesare)
+3)Creare de fisiere Header(.hh) si Surse(.cc) - apoi separarea lor
+3)Definim main-ul(sim.cc) dupa care implementam un volum global(standard box)_(construction)
+4)Implementam lista care stocheaza natura interactiilor fizice care sunt implicate in proces_(physics)
+5)Generam particule si le definim trasaturile_(action + generator + draw);
+6)Construim actiunea care implica generarea unor particule(tracks-uri);
+7)Definim materiale/substante compuse(Aerogel, SiO2, H2O) si adaugam un Radiator(placa)
+8)Create Sensitive Detectors and Implementing Sensitive Detector
+9)Testing Simulation
+10)Automatizam procedura prin procesarea input-ului viuzal din fisiere de tip .mac;
+11)Definim si implementam un mod de stocare/procesare a datelor prin root - plotare de histograme.
+12)Implementing Generic Messenger + Parametrization of Detectors + Adding Material Definition Function
+13)Creating User-Defined Stepping & Event Action(pentru calcularea dozie de energie/run)
